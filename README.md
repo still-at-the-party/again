@@ -13,7 +13,7 @@ public class Main {
         dec = in.nextInt();
 
         while ( dec!=0 ) {
-            mod = dec % 2;
+            mod = q % 2;
             q /= 2;
             bin = (10*bin)+mod;
         }
